@@ -1,4 +1,4 @@
-baseURL = 'http://ice-efrei.fr/'
+baseURL = 'https://ice-efrei.fr/'
 languageCode = 'fr'
 title = 'ICE EFREI'
 theme = "arcana"
