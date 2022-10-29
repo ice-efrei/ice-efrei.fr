@@ -1,0 +1,38 @@
+banner:
+  enable: true
+  image: "images/banner.jpg"
+  contents: "**ICE EFREI :** _Association de R&D dans les NTIC_"
+  button:
+    contents: "En savoir plus"
+    url: "#"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: Découverte
+      icon: fa-binoculars
+      content: >
+        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
+        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+    - title: Équipe
+      icon: fa-users
+      content: >
+        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
+        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+    - title: Bonne ambiance
+      icon: fa-smile
+      content: >
+        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
+        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+  - type: heading
+    heading: Des projets qui n'attendent que toi !
+    contents: Rendez-vous dans l'Innovation les mardis et jeudis après-midi
+  - type: posts
+    #heading: Recent Posts
+    content_type: posts
+    max: 4
+  - type: cta
+    contents: Prêt à réaliser les projets les plus fou ?
+    button:
+      contents: Rejoins nous
+      url: "https://discord.gg/gpMR7WVyQQ"

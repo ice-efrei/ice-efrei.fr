@@ -1,0 +1,41 @@
+baseURL = 'http://ice-efrei.fr/'
+languageCode = 'fr'
+title = 'ICE EFREI'
+theme = "arcana"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    description = "A business/corporate style responsive site template."
+    show_post_dates = false
+
+    [[params.social]]
+        title = "Facebook"
+        icon = "fa-facebook-f"
+        url = "https://fr-fr.facebook.com/assos.IceEfrei/"
+    [[params.social]]
+        title = "Instagram"
+        icon = "fa-instagram"
+        url = "https://instagram.com/ice_efrei"
+    [[params.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        url = "https://github.com/ice-efrei/"
+    [[params.social]]
+        title = "LinkedIn"
+        icon = "fa-linkedin-in"
+        url = "https://www.linkedin.com/company/ice-efrei"
+    [[params.social]]
+        title = "Twitch"
+        icon = "fa-twitch"
+        url = "https://www.twitch.tv/ice_efrei"
+    [[params.social]]
+        title = "Discord"
+        icon = "fa-discord"
+        url = "https://discord.gg/gpMR7WVyQQ"
