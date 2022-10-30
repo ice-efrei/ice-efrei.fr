@@ -32,7 +32,7 @@ La suite du fichier sera le contenu du post, comme vous pouvez le voir sur les p
 la [mise en forme markdown](https://fr.wikipedia.org/wiki/Markdown). Notez que ce qui est écrit avant la ligne
 `<!-- more -->` sera visible en tant que description sur la page d'accueil et la page listant tous les postes.
 
-## Ajouter une redirections
+## Ajouter une redirection
 Rajoutez un fichier `<redirection name>.md` dans `/content`, il doit ensuite avoir la forme suivante si vous ne savez pas
 quoi faire :
 ```markdown
