@@ -2,10 +2,6 @@ baseURL = 'https://ice-efrei.fr/'
 languageCode = 'fr'
 title = 'ICE EFREI'
 theme = "arcana"
-
-[params]
-    googleTagManagerID = "G-VLBR1KRGPQ"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -17,6 +13,7 @@ theme = "arcana"
 [params]
     description = "A business/corporate style responsive site template."
     show_post_dates = false
+    googleTagManagerID = "G-VLBR1KRGPQ"
 
     [[params.social]]
         title = "Facebook"
