@@ -6,7 +6,7 @@ pour supporter les liens de redirection personnalisés, e.g. [ice-efrei.fr/insta
 ![](./static/images/screenshot.png)
 
 ## Configuration
-Les éléments de la page d'accueillir sont définis dans `/data/homepage.yml`. Les éléments statics (images, fichiers, etc.)
+Les éléments de la page d'accueil sont définis dans `/data/homepage.yml`. Les éléments statics (images, fichiers, etc.)
 dans `/static/`.
 
 ## Ajouter un post
@@ -29,7 +29,8 @@ tags:
 ```
 
 La suite du fichier sera le contenu du post, comme vous pouvez le voir sur les précedents posts, vous pouvez utiliser
-la [mise en forme markdown](https://fr.wikipedia.org/wiki/Markdown).
+la [mise en forme markdown](https://fr.wikipedia.org/wiki/Markdown). Notez que ce qui est écrit avant la ligne
+`<!-- more -->` sera visible en tant que description sur la page d'accueil et la page listant tous les postes.
 
 ## Ajouter une redirections
 Rajoutez un fichier `<redirection name>.md` dans `/content`, il doit ensuite avoir la forme suivante si vous ne savez pas
