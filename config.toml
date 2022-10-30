@@ -3,6 +3,9 @@ languageCode = 'fr'
 title = 'ICE EFREI'
 theme = "arcana"
 
+[params]
+    googleTagManagerID = "G-VLBR1KRGPQ"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
